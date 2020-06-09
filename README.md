@@ -10,7 +10,7 @@ Decrypt Parameters from
 ### Usage Example
 
 ```bash
-docker run -v `pwd`:/tmp c403/decrypt-wechat-db /decrypt.sh /tmp/EnMicroMsg.db $imei $uin
+docker run --rm -v `pwd`:/tmp c403/decrypt-wechat-db /decrypt.sh /tmp/EnMicroMsg.db $imei $uin
 ```
 
 __decrypted_database.db__ will generated at current dir.
